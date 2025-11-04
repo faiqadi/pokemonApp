@@ -1,3 +1,36 @@
-PODFILE CHECKSUM: 869752bb257bf65ee1b5fecb38fa6ca2c594def4
+PODS:
+  - Alamofire (5.10.2)
+  - Kingfisher (8.6.1)
+  - MBProgressHUD (1.2.0)
+  - RxSwift (6.9.0)
+  - SnapKit (5.7.1)
+  - XLPagerTabStrip (9.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - MBProgressHUD
+  - RxSwift
+  - SnapKit
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - MBProgressHUD
+    - RxSwift
+    - SnapKit
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  Kingfisher: 7ac7a7288653787a54206b11a3c74f49ab650f1f
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  XLPagerTabStrip: 27f3bfe23c53b4251c6481b06b1c289458a3fc1d
+
+PODFILE CHECKSUM: f69c05e7fe0190c236971cf581d2be0c70badfde
 
 COCOAPODS: 1.16.2

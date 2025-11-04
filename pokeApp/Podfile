@@ -6,6 +6,12 @@ target 'pokeApp' do
   use_frameworks!
 
   # Pods for pokeApp
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'RxSwift'
+  pod 'MBProgressHUD'
+  pod 'SnapKit'
+  pod 'XLPagerTabStrip'
 
   target 'pokeAppTests' do
     inherit! :search_paths

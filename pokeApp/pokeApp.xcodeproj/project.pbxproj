@@ -65,15 +65,11 @@
 		};
 		296AD8B32EB9F28800DE5A4B /* pokeAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = pokeAppTests;
 			sourceTree = "<group>";
 		};
 		296AD8BD2EB9F28800DE5A4B /* pokeAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = pokeAppUITests;
 			sourceTree = "<group>";
 		};
@@ -149,7 +145,6 @@
 				EF7048CB91C143B3E05A4195 /* Pods-pokeAppTests.debug.xcconfig */,
 				71F93A089D90ECA396ACD223 /* Pods-pokeAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -164,6 +159,7 @@
 				296AD8932EB9F28600DE5A4B /* Sources */,
 				296AD8942EB9F28600DE5A4B /* Frameworks */,
 				296AD8952EB9F28600DE5A4B /* Resources */,
+				A046FCC8A415DBA669DE2240 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +203,7 @@
 				296AD8B62EB9F28800DE5A4B /* Sources */,
 				296AD8B72EB9F28800DE5A4B /* Frameworks */,
 				296AD8B82EB9F28800DE5A4B /* Resources */,
+				4CDD4F56AC3BDC1F3A5B7604 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -354,6 +351,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CDD4F56AC3BDC1F3A5B7604 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokeApp-pokeAppUITests/Pods-pokeApp-pokeAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokeApp-pokeAppUITests/Pods-pokeApp-pokeAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokeApp-pokeAppUITests/Pods-pokeApp-pokeAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A046FCC8A415DBA669DE2240 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokeApp/Pods-pokeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pokeApp/Pods-pokeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pokeApp/Pods-pokeApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
