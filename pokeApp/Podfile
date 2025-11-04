@@ -6,7 +6,8 @@ target 'pokeApp' do
   use_frameworks!
 
   # Pods for pokeApp
-  pod 'Alamofire'
+#  pod 'Alamofire'
+  pod 'RxCocoa'
   pod 'Kingfisher'
   pod 'RxSwift'
   pod 'MBProgressHUD'
