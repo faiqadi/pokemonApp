@@ -1,4 +1,4 @@
-// © 2025 Prodia. All rights reserved.
+// © 2025 faiqadi. All rights reserved.
 
 import UIKit
 import RxSwift
@@ -105,14 +105,7 @@ final class LoginViewController: UIViewController {
 
     private func showHome() {
         let tabBar = MainTabBarController()
-        if let sceneDelegate = view.window?.windowScene?.delegate as? SceneDelegate,
-           let window = sceneDelegate.window {
-            window.rootViewController = tabBar
-            window.makeKeyAndVisible()
-        } else {
-            tabBar.modalPresentationStyle = .fullScreen
-            present(tabBar, animated: true)
-        }
+        navigationController?.setViewControllers([tabBar], animated: true)
     }
 }
 

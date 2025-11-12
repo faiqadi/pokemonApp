@@ -1,4 +1,4 @@
-// © 2025 Prodia. All rights reserved.
+// © 2025 faiqadi. All rights reserved.
 
 import UIKit
 import RxSwift

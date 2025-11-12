@@ -102,11 +102,15 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		296AD8B32EB9F28800DE5A4B /* pokeAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = pokeAppTests;
 			sourceTree = "<group>";
 		};
 		296AD8BD2EB9F28800DE5A4B /* pokeAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = pokeAppUITests;
 			sourceTree = "<group>";
 		};
@@ -561,13 +565,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-pokeApp-pokeAppUITests/Pods-pokeApp-pokeAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-pokeApp-pokeAppUITests/Pods-pokeApp-pokeAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -582,13 +582,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-pokeApp/Pods-pokeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-pokeApp/Pods-pokeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
