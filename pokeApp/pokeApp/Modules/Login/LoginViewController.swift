@@ -104,8 +104,15 @@ final class LoginViewController: UIViewController {
     }
 
     private func showHome() {
-        let home = HomeViewController()
-        navigationController?.setViewControllers([home], animated: true)
+        let tabBar = MainTabBarController()
+        if let sceneDelegate = view.window?.windowScene?.delegate as? SceneDelegate,
+           let window = sceneDelegate.window {
+            window.rootViewController = tabBar
+            window.makeKeyAndVisible()
+        } else {
+            tabBar.modalPresentationStyle = .fullScreen
+            present(tabBar, animated: true)
+        }
     }
 }
 
